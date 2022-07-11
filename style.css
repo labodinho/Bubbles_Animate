@@ -25,6 +25,12 @@
     cursor: pointer;
 }
 
+.logo:hover{
+    color: #82D173;
+    font-size: 35px;
+    transition: .5s;
+}
+
 .navbar{
     width: 100%;
     height: 15%;
