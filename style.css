@@ -193,5 +193,73 @@ span{
 
 
 
+/**********Media Queries************/
 
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    
+    h1{
+        font-size: 60px;
+        margin: 10px 0px 25px;
+        line-height: 70px;
+    }
+}
+
+
+@media screen and (max-width: 600px) and (min-width: 300px){
+    
+    .logo{
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 35px;
+        margin: 10px 0px 10px;
+        line-height: 40px;
+    }
+
+    .content{
+        color: #fbfcfd;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-60%);
+        z-index: 2;
+    }
+    button{
+        color: #82D173;
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
+
+
+@media screen and (max-width: 299px) and (min-width: 200px){
+    
+    .logo{
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 26px;
+        margin: 10px 0px 10px;
+        line-height: 30px;
+    }
+
+    .content{
+        color: #fbfcfd;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-60%);
+        z-index: 2;
+    }
+    button{
+        color: #82D173;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
 
