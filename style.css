@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Open+Sans:wght@700&family=Poppins:wght@200;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bubble-body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/ocean-life-g95ed23dc3_1920.jpg);
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 45px;
+    color: #fbfcfd;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+button{
+    color: #82D173;
+    font-size: 18px;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #82D173;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #82D173;
+    color: #fbfcfd;
+    transition: .5s;
+
+}
+
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+h1{
+    font-size: 80px;
+    margin: 10px 0px 30px;
+    line-height: 80px;
+}
+
+span{
+    color: #82D173;
+}
+
+.side-bar{
+    width: 70px;
+    height: 100vh;
+    background: rgba(164, 226, 240, 0.4);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.social-links{
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+
+.soc{
+    width: 40px;
+    padding: 4px;
+    transform: translateY(-50%);
+    position: absolute;
+    top: 30%;
+}
+
+.soc2{
+    width: 40px;
+    padding: 4px;
+    transform: translateY(-50%);
+    position: absolute;
+    bottom: 50%;
+}
+
+.soc:hover, .soc2:hover{
+    background-color: #82D173;
+    border: 1px solid #000;
+    border-radius: 15%;
+    transition: .5s;
+}
+
+
+.bubbles img {
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+
+@keyframes bubble {
+    0% {
+        transform:translateY(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        transform:translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 30px;
+}
+
+.bubbles img:nth-child(2){
+    animation-delay: 1s;
+    width: 45px;
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;
+    width: 35px;
+}
+.bubbles img:nth-child(5){
+    animation-delay: 3s;
+}
+.bubbles img:nth-child(6){
+    animation-delay: 6s;
+    width: 40px;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 5s;
+}
+
+.bubbles img:nth-child(8){
+    animation-delay: 3s;
+    width: 15px;
+}
+.bubbles img:nth-child(9){
+    animation-delay: 7s;
+    width: 25px;
+}
+
+.bubbles img:nth-child(10){
+    animation-delay: 2s;
+    width: 35px;
+}
+
+
+
+
+
+
+
