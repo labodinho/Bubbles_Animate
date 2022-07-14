@@ -22,12 +22,12 @@
 .logo{
     font-weight: 700;
     font-size: 45px;
-    color: #fbfcfd;
+    color: #ffe45e;
     cursor: pointer;
 }
 
 .logo:hover{
-    color: #82D173;
+    color: #ff6392;
     font-size: 35px;
     transition: .5s;
 }
@@ -43,25 +43,25 @@
 }
 
 button{
-    color: #82D173;
+    color: #ffe45e;
     font-size: 18px;
     padding: 10px 25px;
     background: transparent;
-    border: 1px solid #82D173;
+    border: 1px solid #ffe45e;
     border-radius: 20px;
     outline: none;
     cursor: pointer;
 }
 
 button:hover{
-    background: #82D173;
-    color: #fbfcfd;
+    background: #ffe45e;
+    color: #ff6392;
     transition: .5s;
 
 }
 
 .content{
-    color: #fbfcfd;
+    color: #ffe45e;
     position: absolute;
     top: 50%;
     left: 20%;
@@ -76,15 +76,15 @@ h1{
 }
 
 span{
-    color: #82D173;
+    color: #ff6392;
 }
 
 .side-bar{
-    width: 70px;
+    width: 50px;
     height: 100vh;
-    background: rgba(164, 226, 240, 0.4);
+    background: rgba(218, 232, 236, 0.4);
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
 }
 
@@ -95,25 +95,28 @@ span{
 }
 
 .soc{
-    width: 40px;
+    width: 35px;
     padding: 4px;
+    background-color: #ff6392;
+    border-radius: 20%;
     transform: translateY(-50%);
     position: absolute;
-    top: 30%;
+    top: 35%;
 }
 
 .soc2{
-    width: 40px;
+    width: 35px;
     padding: 4px;
+    border-radius: 20%;
+    background-color: #ff6392;
     transform: translateY(-50%);
     position: absolute;
     bottom: 50%;
 }
 
 .soc:hover, .soc2:hover{
-    background-color: #82D173;
     border: 1px solid #000;
-    border-radius: 15%;
+    border-radius: 50%;
     transition: .5s;
 }
 
@@ -151,7 +154,8 @@ span{
 
 .bubbles img:nth-child(1){
     animation-delay: 2s;
-    width: 30px;
+    margin-left: 20px;
+    width: 20px;
 }
 
 .bubbles img:nth-child(2){
