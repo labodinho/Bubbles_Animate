@@ -230,26 +230,29 @@ span{
     
     .logo{
         font-weight: 700;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     h1{
-        font-size: 35px;
+        font-size: 30px;
         margin: 10px 0px 10px;
         line-height: 40px;
     }
 
+    .navbar{
+        margin: 0px 30px;
+       
+    }
+
     .content{
-        color: #fbfcfd;
         position: absolute;
         top: 50%;
-        left: 10%;
+        left: 20%;
         transform: translateY(-60%);
         z-index: 2;
     }
     button{
-        color: #82D173;
-        font-size: 16px;
+        font-size: 18px;
         padding: 10px 15px;
     }
 }
@@ -259,7 +262,7 @@ span{
     
     .logo{
         font-weight: 700;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h1{
@@ -267,17 +270,19 @@ span{
         margin: 10px 0px 10px;
         line-height: 30px;
     }
+    .navbar{
+        margin: 0px 32px;
+       
+    }
 
     .content{
-        color: #fbfcfd;
         position: absolute;
         top: 50%;
-        left: 10%;
+        left: 24%;
         transform: translateY(-60%);
         z-index: 2;
     }
     button{
-        color: #82D173;
         font-size: 14px;
         padding: 10px;
     }
