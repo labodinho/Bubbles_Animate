@@ -2,4 +2,4 @@
 
 A simple Bubble Animation with a Typing Effect with TYPED.JS
 
-live link https://labodinho.github.io/Bubbles_Animate/
+<a href="https://labodinho.github.io/Bubbles_Animate/" target="_blanck">live link</a>

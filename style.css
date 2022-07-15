@@ -44,13 +44,30 @@
 
 button{
     color: #ff6392;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 700;
     padding: 10px 25px;
     background: transparent;
     border: 1px solid #ff6392;
     border-radius: 20px;
     outline: none;
     cursor: pointer;
+}
+.button2{
+    color: #ff6392;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #ff6392;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.button2:hover{
+    background: #ff6392;
+    color: #ffe45e;
+    transition: .5s;
 }
 
 button:hover{
@@ -59,6 +76,7 @@ button:hover{
     transition: .5s;
 
 }
+
 
 .content{
     color: #ffe45e;
@@ -255,6 +273,17 @@ span{
         font-size: 18px;
         padding: 10px 15px;
     }
+    .button2{
+        font-size: 18px;
+        padding: 10px 15px;
+        background: #ffe45e;
+    }
+    .button2:hover{
+        background: #ffe45e;
+        color: #ff6392;
+        transition: .5s;
+    }
+    
 }
 
 
@@ -283,8 +312,19 @@ span{
         z-index: 2;
     }
     button{
-        font-size: 14px;
+        font-size: 16px;
         padding: 10px;
     }
+    .button2{
+        font-size: 16px;
+        padding: 10px;
+        background: #ffe45e;
+    }
+    .button2:hover{
+        background: #ffe45e;
+        color: #ff6392;
+        transition: .5s;
+    }
+    
 }
 
