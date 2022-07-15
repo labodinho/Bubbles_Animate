@@ -276,7 +276,9 @@ span{
     .button2{
         font-size: 18px;
         padding: 10px 15px;
-        background: #ffe45e;
+        background: #ff6392;
+        color: #ffe45e;
+        
     }
     .button2:hover{
         background: #ffe45e;
@@ -316,9 +318,11 @@ span{
         padding: 10px;
     }
     .button2{
-        font-size: 16px;
-        padding: 10px;
-        background: #ffe45e;
+        font-size: 18px;
+        padding: 10px 15px;
+        background: #ff6392;
+        color: #ffe45e;
+        
     }
     .button2:hover{
         background: #ffe45e;
